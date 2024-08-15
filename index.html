@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King Franchise</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Burger King Virtual Restaurant</h1>
+        <div id="order-id"></div>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="whopper" name="food">
+                    <label for="whopper">Whopper</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="big-king" name="food">
+                    <label for="big-king">Big King</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="fries" name="food">
+                    <label for="fries">Fries</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="drink" name="food">
+                    <label for="drink">Drink</label>
+                </li>
+            </ul>
+            <button id="order-food">Order Food</button>
+        </section>
+        <section id="order-status">
+            <div id="loading-animation">
+                <img src="loading.gif" alt="Loading...">
+            </div>
+            <div id="food-image"></div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
